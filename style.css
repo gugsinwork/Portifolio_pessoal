@@ -138,6 +138,31 @@ h1{
     body{
         background-size: 2000px;
     }
+    h1#index{
+        text-align: start;
+        margin-top: 15%;
+        font-size: 60px;
+        margin-left: 5%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .menu{
+        background-color: white;
+        height: 50px;
+        width: 371px;
+        -webkit-box-shadow:0px 0px 11px 5px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+        box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.177);
+    }
+    a{
+        padding: 0 25px;
+        text-decoration: none;
+        color: black;
+        margin-top: 1%;
+        font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    } 
 }
 @media (max-width: 376px){
     body{
