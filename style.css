@@ -122,12 +122,37 @@ h1{
     align-items: center;
     background-color: rgb(255, 255, 255);
     width: 400px;
-    height: 400px;
+    height: 600px;
     border-radius: 30px;
     -webkit-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
     -moz-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
     box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
 }
+.label_text_ap{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 20px;
+}
+.input_button_ap{
+    outline: 0;
+    border-radius: 50px;
+    border: solid 2px purple;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px
+
+}
+.border_line_ap{
+    background-color: rgb(115, 13, 162);
+    height: 10px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+
 
 @media screen and (max-width: 768px) {
 

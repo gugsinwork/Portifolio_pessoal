@@ -18,3 +18,28 @@ function calcularImovel() {
     }
     return preco;
 }
+function calculaAp() {
+     preco_ap = parseFloat(document.getElementById('preco_ap').value);
+     m2_ap = parseFloat(document.getElementById('m2ap').value);
+     quartos = parseInt(document.getElementById('quartoap').value);
+     andar = parseInt(document.getElementById('andar').value);
+    let preco = 0;
+
+    if ( m2_ap <= 0 || quartos <= 0) {
+        window.alert('Valores inválidos.');
+    } else {
+        switch (quartos) {
+            case m2_ap < 100:
+                preco = (m2_ap * preco_ap * 1.2) + (andar * 15000);
+                break;
+            case m2_ap < 200:
+                preco = (m2_ap * preco_ap * 1.5) + (andar * 15000);
+                break;
+            default:
+                preco = (m2_ap * preco_ap * 2) + (andar * 15000);
+                break;
+        }
+
+        window.alert("o preço é R$" + preco);
+    }
+}

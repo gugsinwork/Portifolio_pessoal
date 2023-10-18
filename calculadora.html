@@ -34,7 +34,21 @@
         </div>
             <div class="card_ap">
                 <div class="card_ap">
-                    <div class="submit_button"><input type="submit" id="submit_style" value="Calcular" onclick="calcularImovel()"></div>
+                    <h1>APARTAMENTO</h1>
+                        <div class="form_ap">
+                            <div class="border_line_ap"></div>
+                                <form onsubmit="calculaAp()">
+                                    <label class="label_text_ap">Tamanho do imóvel por m2</label><br>
+                                        <input class="input_button_ap" type="number" id="m2ap" value=""><br>
+                                    <label class="label_text_ap" for="">Número de quartos</label><br>
+                                        <input class="input_button_ap" type="number" id="quartoap"><br>
+                                    <label class="label_text_ap">Número do andar</label><br>
+                                        <input type="number" class="input_button_ap" id="andar"><br>
+                                    <label class="label_text_ap">Preço do M2 por região</label><br>
+                                        <input type="number" class="input_button_ap" id="preco_ap">
+                                        <div class="submit_button"><input type="submit" id="submit_style" value="Calcular" onclick="calculaAp()"></div>
+                                    </form>
+                        </div>
                 </div>
             </div>
     </div>
