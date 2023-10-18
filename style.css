@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Space+Grotesk:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(2.png);
+    background-size: 1700px;
+    background-attachment: fixed;
+}
+.menu{
+    background-color: white;
+    height: 50px;
+    -webkit-box-shadow:0px 0px 11px 5px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.177);
+}
+.Conteudo_Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    padding: 0 35px;
+    text-decoration: none;
+    color: black;
+    margin-top: 1%;
+    font-family: 'Quicksand', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+
+}
+a:hover{
+    transition: all 0.4s;
+    background-color: rgb(130, 17, 236);
+    border-radius: 50px;
+    color: white;
+}
+h1#index{
+    text-align: start;
+    margin-top: 15%;
+    font-size: 100px;
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    justify-content: center
+}
+.card{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    -webkit-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+    box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+}
+h1{
+    position: relative;
+    top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.form{
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.input_button{
+    outline: 0;
+    border-radius: 50px;
+    border: solid 2px purple;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.label_text{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.submit_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}
+#submit_style{
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    background-color: rgb(115, 13, 162);
+    color: white;
+    font-size: 15px;
+    border-radius: 12px;
+    -webkit-box-shadow: 2px 2px 24px -6px rgba(163,0,163,1);
+    -moz-box-shadow: 2px 2px 24px -6px rgba(163,0,163,1);
+    box-shadow: 2px 2px 24px -6px rgba(163,0,163,1);
+}
+.border_line{
+    background-color: rgb(115, 13, 162);
+    height: 10px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+}
+.card_ap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    -webkit-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+    box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.68);
+}
+
+@media (min-width: 1281px ){
+    body{
+        background-size: 2000px;
+    }
+}
+@media (max-width: 618px){
+    body{
+        background-size: 2000px;
+    }
+}
+@media (max-width: 376px){
+    body{
+        background-size: 2800px;
+    }
+    h1#index{
+        text-align: start;
+        margin-top: 15%;
+        font-size: 60px;
+        margin-left: 5%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .menu{
+        background-color: white;
+        height: 50px;
+        width: 371px;
+        -webkit-box-shadow:0px 0px 11px 5px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+        box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.177);
+    }
+    a{
+        padding: 0 25px;
+        text-decoration: none;
+        color: black;
+        margin-top: 1%;
+        font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    } 
+}
