@@ -136,7 +136,7 @@ h1{
 }
 @media (max-width: 618px){
     body{
-        background-size: 2000px;
+        background-size: 1000px;
     }
     h1#index{
         text-align: start;
@@ -166,7 +166,7 @@ h1{
 }
 @media (max-width: 376px){
     body{
-        background-size: 2800px;
+        background-size: 1000px;
     }
     h1#index{
         text-align: start;
